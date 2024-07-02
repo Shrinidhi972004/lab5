@@ -4,4 +4,10 @@ git add .
 
 git commit -m "any message"
 
+git push
 
+git log --oneline
+(a)git show commit-id
+(b) git log --author+"johnDoe" --after="2023-01-01" --before="2023-12-31"
+(c)git log -n 5
+(d)git revert abc123
